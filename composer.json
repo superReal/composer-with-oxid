@@ -1,0 +1,15 @@
+{
+    "name": "superreal/composer-with-oxid",
+    "description": "Demo repository for teaching how to use composer dependency management with OXID",
+    "license": "GPL-3.0",
+    "require": {
+        "php": ">=5.3.3",
+        "superreal/composer-with-oxid-demo-theme": "dev-master",
+        "superreal/composer-with-oxid-demo-module": "dev-master"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "ln -sf ../application/views/composer-with-oxid-demo-theme/skin/composer-with-oxid-demo-theme out/composer-with-oxid-demo-theme"
+        ]
+    }
+}

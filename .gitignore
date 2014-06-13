@@ -1,0 +1,6 @@
+.idea/
+.DS_Store
+vendor/
+application/views/composer-with-oxid-demo-theme
+modules/composer-with-oxid-demo-module
+out/composer-with-oxid-demo-theme
